@@ -1,6 +1,6 @@
 # solutions
 **Problem 1:** Java program that generates a Fibonacci sequence
-File:[Solutions/FibonacciSequence.java](Solutions/FibonacciSEquence.java)
+File:[Solutions/FibonacciSequence.java](Solutions/FibonacciSequence.java)
 Description:This file contains solutions to the Fibonacci sequence problem.The purpose of the above code is to generate and print the Fibonacci sequence up to a given input number. The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1.
 Code Description-First we import the scanner from the java.util package which is used for user input.Inside the main method we create a Scanner object called scanner to read user input .getValidInput will prompt the user to enter the correct input and it is stored in the userInput variable.The fibonacci sequence is then generated using a for loop as it iterates from 0 to userInput-1 to calculate each number at each position and print it in the console.
 Next ,is a private method called fibonnaci which calculates the number at given position (n) and store them in an array.If n is 0, it returns 0 because the Fibonacci sequence starts with 0.
